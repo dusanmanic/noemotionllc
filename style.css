@@ -68,6 +68,7 @@ nav ul li {
     border-left: 1px solid white;
 }
 
+
 nav ul li a {
     color: white;
     font-size: 18px;
@@ -161,5 +162,12 @@ a:hover {
     }
     .col-12{
         width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .hidden-border {
+        border-left: 0px;
     }
 }
