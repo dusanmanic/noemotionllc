@@ -17,6 +17,7 @@ html, body {
 }
 
 
+
 #grey {
     background-color: rgb(20, 20, 20);
     padding-top: 5%;
@@ -27,7 +28,7 @@ html, body {
 
 #red {
     background-color: rgb(150, 0, 0);
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -39,6 +40,12 @@ html, body {
     padding-left: 45px;
     padding-top: 45px;
 }
+
+.tekst {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 35px;
+}
+
 
 #header {
     align-self: flex-end;
@@ -69,6 +76,7 @@ nav ul li {
 }
 
 
+
 nav ul li a {
     color: white;
     font-size: 18px;
@@ -86,8 +94,22 @@ a:hover {
 }
 
 
+.slike {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
 
-#pageImage {
+
+img {
+    width: 30vh;
+    border: 1px solid white;
+    border-radius: 12px;
+    
+}
+
+
+.pageImage {
     background-image: url("slike/page.jpg");
     background-size: cover;
     background-position: center;
@@ -97,7 +119,7 @@ a:hover {
 }
 
 #masterPage {
-    background-color: black; opacity: 0.6;
+    background-color:rgba(0, 0, 0, 0.5);
     height: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -197,6 +219,14 @@ fieldset {
 @media only screen and (max-width: 700px) {
     .hidden-border {
         border-left: 0px;
+    }
+
+    .hiddenImages {
+        display: none;
+    }
+
+    .scale {
+        height: 100vh;
     }
 
 }
