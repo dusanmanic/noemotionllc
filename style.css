@@ -54,6 +54,7 @@ html, body {
 #master {
     margin: auto;
     font-size: 30px;
+    color: black;
     font-family: Verdana, Geneva, sans-serif;    
 }
 
@@ -149,6 +150,7 @@ form input, textarea {
 }
 
 textarea {
+    resize: none;
     height: 150px;
 }
 
