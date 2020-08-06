@@ -144,7 +144,7 @@ img {
     flex-direction: column;
 }
 
-#textHedera {
+.textHedera {
     background-color: rgb(230, 230, 230);
     height: 90px;
     display: flex;
@@ -178,6 +178,15 @@ fieldset {
     flex-direction: column;
     padding: 1.5vh;
 }
+
+
+
+
+
+
+
+
+
 
 
 
