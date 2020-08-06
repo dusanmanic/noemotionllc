@@ -118,7 +118,7 @@ a:hover {
 }
 
 
-img {
+.slike img {
     width: 30vh;
     border: 1px solid white;
     border-radius: 12px;
@@ -135,7 +135,14 @@ img {
     border-bottom-right-radius: 20px;
 }
 
-.masterPage {
+
+.test {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.masterPageContact {
     background-color:rgba(0, 0, 0, 0.0);
     height: 100%;
     border-bottom-left-radius: 20px;
@@ -143,6 +150,7 @@ img {
     display: flex;
     flex-direction: column;
 }
+
 
 .textHedera {
     background-color: rgb(230, 230, 230);
@@ -178,15 +186,6 @@ fieldset {
     flex-direction: column;
     padding: 1.5vh;
 }
-
-
-
-
-
-
-
-
-
 
 
 
