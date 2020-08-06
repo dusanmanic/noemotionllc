@@ -16,6 +16,7 @@ html, body {
     height: 100%;
 }
 
+
 .text {
     background-color: rgb(20, 20, 20, 0.5);
     padding-top: 5px;
@@ -62,7 +63,11 @@ html, body {
     margin: auto;
     font-size: 30px;
     color: black;
-    font-family: Verdana, Geneva, sans-serif;    
+    font-family: Verdana, Geneva, sans-serif;   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 nav ul {
@@ -173,6 +178,7 @@ fieldset {
     flex-direction: column;
     padding: 1.5vh;
 }
+
 
 
 
