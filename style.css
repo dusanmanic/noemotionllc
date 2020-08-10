@@ -89,7 +89,6 @@ nav ul li {
 }
 
 .adresa {
-    background-color: rgba(0, 0, 0, 0.3);
     padding-left: 15px;
     padding-bottom: 5px;
 }
@@ -155,6 +154,10 @@ a:hover {
     flex-direction: column;
 }
 
+.contacttext {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
 
 .textHedera {
     background-color: rgb(230, 230, 230);
